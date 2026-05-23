@@ -1,6 +1,15 @@
 import streamlit as st
 
-st.title("🎈 My new app")
-st.write(
-    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
+st.set_page_config(
+    page_title="Kuliah Praktisi 230526",
+    page_icon-"🧊",
+    layout="centered",
+    initial_sidebar_state="expanted"
 )
+
+# Hirarki teks
+st.title("📊 Dashboard")
+st.header("Laporan Bulanan")
+st.subheader("📈 Monthly Expenses")
+st.caption("Made with ❤️ using Streamlit")
+st.write("Hello, *World!* 🤗"
