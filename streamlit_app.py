@@ -4,7 +4,8 @@ st.set_page_config(
     page_title="Kuliah_Praktisi_230526",
     page_icon-"🧊",
     layout="centered",
-    initial_sidebar_state="expanded")
+    initial_sidebar_state="expanded"
+)
 
 # Hirarki teks
 st.title("📊 Dashboard")
